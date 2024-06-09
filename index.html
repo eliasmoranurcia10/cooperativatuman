@@ -6,6 +6,7 @@
     <title>Cooperativa Tuman</title>
 
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./node_modules/boxicons/css/boxicons.css">
 </head>
 <body>
 
@@ -24,30 +25,913 @@
     <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./img/coorperativatuman.png" class="d-block w-50" alt="..." >
+            <img src="./img/coorperativatuman.png" class="rounded mx-auto d-block" alt="..." >
           </div>
         </div>
     </div>
 
-    <header id="header" class="d-flex align-items-center">
-        <div class="container d-flex align-items-center justify-content-between">
-    
-          <!-- Uncomment below if you prefer to use an image logo -->
-          <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt=""></a>-->
-    
-          <nav id="navbar" class="navbar">
-            <ul>
-              <li><a class="nav-link scrollto active" href="#hero">Inicio</a></li>
-              <li><a class="nav-link scrollto" href="#about">Comunicado SBS</a></li>
-              <li><a class="nav-link scrollto" href="#services">Estados financieros</a></li>
-              <li><a class="nav-link scrollto " href="#faq">Preguntas frecuentes</a></li>
-    
-              <li><a class="nav-link scrollto" href="#contact">Clic aquí para consultas</a></li>
-            </ul>
-            <i class="bi bi-list mobile-nav-toggle"></i>
-          </nav><!-- .navbar -->
-    
+    <header id="header" class="navbar navbar-expand-lg bg-body-tertiary d-flex align-items-center">
+
+
+      <div class="container d-flex align-items-center justify-content-between">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <nav id="navbar" class="navbar collapse navbar-collapse">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link scrollto active" href="#hero">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link scrollto" href="#about">Comunicado SBS</a></li>
+            <li class="nav-item"><a class="nav-link scrollto" href="#services">Estados financieros</a></li>
+            <li class="nav-item"><a class="nav-link scrollto " href="#faq">Preguntas frecuentes</a></li>
+  
+            <li class="nav-item"><a class="nav-link scrollto" href="#contact">Clic aquí para consultas</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
+  
+      </div>
+    </header><!-- End Header -->
+
+    <section id="hero" class="d-flex align-items-center">
+      <div class="container" data-aos="zoom-out" data-aos-delay="100">
+        <h1>Bienvenido a la <span>Cooperativa de Ahorro y Crédito COOPAC TUMAN - En Liquidación</span></h1>
+        <h2>(Resolución SBS N 0149-2022)</h2>
+        <h2>Aquí encontrarás la información que estas buscando</h2>
+        
+    </section><!-- End Hero -->
+
+    <main id="main">
+
+      <!-- ======= Featured Services Section ======= -->
+      <section id="featured-services" class="featured-services">
+        <div class="container" data-aos="fade-up">
+  
+          <div class="row ">
+            <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                <div class="icon"><i class="bx bxl-dribbble"></i></div>
+                <h4 class="title"><a href="#about">Comunicado SBS</a></h4>
+                <p class="description">Podrás ver todos los comunicados que envía la SBS.</p>
+              </div>
+            </div>
+  
+            <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+                <div class="icon"><i class="bx bx-file"></i></div>
+                <h4 class="title"><a href="#services">Estados financieros</a></h4>
+                <p class="description">Aquí podrás ver el estado financiero en que está la cooperativa.</p>
+              </div>
+            </div>
+  
+            <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon"><i class="bx bx-tachometer"></i></div>
+                <h4 class="title"><a href="#faq">Preguntas frecuentes</a></h4>
+                <p class="description">Las preguntas más usuales con sus respuestas, las tenemos aquí.</p>
+              </div>
+            </div>
+  
+            <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
+                <div class="icon"><i class="bx bx-world"></i></div>
+                <h4 class="title"><a href="#contact">Haz tu consulta</a></h4>
+                <p class="description">Entra aquí para que puedas realizar la consulta que deseas hacernos.</p>
+              </div>
+            </div>
+  
+          </div>
+  
         </div>
-    </header>
-</body>
+      </section><!-- End Featured Services Section -->
+  
+      <!-- ======= About Section ======= -->
+      <section id="about" class="about section-bg">
+        <div class="container" data-aos="fade-up">
+  
+          <div class="section-title">
+            <h2>Comunicados</h2>
+            <h3>Mira todos los  <span>comunicados de la SBS</span></h3>
+            <p>La lista de los comunicados de la SBS la encuentras aquí.</p>
+          </div>
+  
+          <div class="row">
+            <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
+              <ul>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Padrón de Socios de la Cooperativa COOPAC TUMAN</h5>
+                    <p><a href="files/Aportes al 30-11-2021 - CCA.pdf" target="_blank">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Relación total de bienes inmuebles de propiedad de la Cooperativa COOPAC TUMAN</h5>
+                    <p><a href="files/Listado Inmuebles CCA Valor Realizacion_Mayo 2023.pdf" target="_blank">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Comunicado N° 13: Segunda devolución de depósitos</h5>
+                    <p><a href="files/Comunicado Devolucion COOPAC TUMAN 05042023.pdf" target="_blank">Descargar aquí</a></p>
+                  </div>
+                </li>
+                  <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Comunicado N° 12: Avance y Estado del Proceso de Liquidación</h5>
+                    <p><a href="files/Comunicado Avance y Estado del Proceso de Liquidación CCA.pdf" target="_blank">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <!--
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Relación total de bienes inmuebles de propiedad de la Cooperativa COOPAC TUMAN </h5>
+                    <p><a href="files/Listado inmuebles CCA valor realización_Febrero 2023_17Feb23.pdf" target="_blank">Descargar aquí</a></p>
+                  </div>
+                </li>
+                -->
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Comunicado N° 11 : Inicio del Proceso de Devolución de depósitos Quinto Listado </h5>
+                    <p><a href="files/SBS - Comunicado Nro 11.pdf" target="_blank">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Inventario de vehículos de COOPAC TUMAN en Liquidación (Al 12/12/2022)</h5>
+                    <p><a href="files/Listado de Vehiculos al 12.12.22.pdf" target="_blank">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Comunicado N° 10 : Inicio del Proceso de Devolución de depósitos - Cuarto Listado</h5>
+                    <p><a href="files/Comunicado COOPAC TUMAN 02.12.2022.pdf" target="_blank">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Comunicado N° 09 : Se solicita información a socios con cuentas de depósitos a plazo fijo y/o ahorros de tipo mancomunadas</h5>
+                    <p><a href="files/Comunicado COOPAC TUMAN 29.11.2022.pdf" target="_blank">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Inventario de vehículos de COOPAC TUMAN en liquidación (Al 07/11/2022)</h5>
+                    <p><a href="files/Listado de Vehiculos al 12.12.22.pdf" target="_blank">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Listado de oficinas cerradas y entregadas a sus propietarios durante el proceso de liquidación (Al 27/09/2022)</h5>
+                    <p><a href="files/Listado de oficinas Cerradas y entregadas a sus propietarios_220927.pdf" target="_blank">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Listado de oficinas cerradas y entregadas a sus propietarios durante el proceso de liquidación (Al 02/09/2022)</h5>
+                    <p><a href="files/Listado de oficinas Cerradas y entregadas a sus propietarios_220902.pdf" target="_blank">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Listado de oficinas cerradas y entregadas a sus propietarios durante el proceso de liquidación (Al 24/08/2022)</h5>
+                    <p><a href="files/Listado de oficinas Cerradas y entregadas a sus propietarios_220824.pdf" target="_blank">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Listado de oficinas cerradas y entregadas a sus propietarios durante el proceso de liquidación (Al 16/08/2022)</h5>
+                    <p><a href="files/Listado de oficinas Cerradas y entregadas a sus propietarios_220816.pdf" target="_blank">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Comunicado N° 08 : Inicio del Proceso de Devolución de depósitos - Tercer Listado</h5>
+                    <p><a href="files/Comunicado_Listado_003.pdf" target="_blank">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Inventario de vehículos de COOPAC TUMAN en liquidación (Al 05/08/2022)</h5>
+                    <p><a href="files/Inventario de bienes vehiculos_05.08.2022.pdf" target="_blank">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Listado de oficinas cerradas y entregadas a sus propietarios durante el proceso de liquidación (Al 02/08/2022)</h5>
+                    <p><a href="files/Listado de oficinas Cerradas y entregadas a sus propietarios_220802.pdf" target="_blank">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Listado de oficinas cerradas y entregadas a sus propietarios durante el proceso de liquidación (Al 15/07/2022)</h5>
+                    <p><a href="files/Listado de oficinas Cerradas y entregadas a sus propietarios_220715.pdf" target="_blank">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Comunicado N° 07 : Inicio del Proceso de Devolución de depósitos - Segundo Listado</h5>
+                    <p><a href="files/Comunicado_Listado_002.pdf" target="_blank">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Listado de oficinas cerradas y entregadas a sus propietarios durante el proceso de liquidación (Al 05/07/2022)</h5>
+                    <p><a href="files/Listado de oficinas Cerradas y entregadas a sus propietarios_220705.pdf" target="_blank">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Preguntas y Respuestas relacionadas con la devolución de depósitos.</h5>
+                    <p><a href="files/FAQ_Devolución_CCA_3006_.pdf" target="_blank">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Listado de oficinas cerradas y entregadas a sus propietarios durante el proceso de liquidación (Al 28/06/2022)</h5>
+                    <p><a href="files/Listado de oficinas Cerradas y entregadas a sus propietarios_220628.pdf" target="_blank">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Comunicado N° 06 : Inicio del Proceso de Devolución de depósitos - Primer Listado</h5>
+                    <p><a href="files/Comunicado N°06 _InicioDelProcesoDeDevolución_Listado01.pdf" target="_blank">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Listado de oficinas cerradas y entregadas a sus propietarios durante el proceso de liquidación (Al 22/06/2022)</h5>
+                    <p><a href="files/Listado de oficinas Cerradas y entregadas a sus propietarios_220622.pdf">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Comunicado N° 05 : Sobre el proceso de devolución a depositantes</h5>
+                    <p><a href="files/Comunicado 5_21062022.pdf">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Relación de socios deudores con calificación de "Pérdida", al 31/10/2021</h5>
+                    <p><a href="files/Creditos_Pérdida_31.10.22 v3.pdf">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Comunicado N° 04 : Sobre el proceso de devolución a depositantes</h5>
+                    <p><a href="files/Comunicado COOPAC TUMAN 06.06.2022.pdf">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Inventario de vehículos de COOPAC TUMAN en liquidación (Al 19/05/2022)</h5>
+                    <p><a href="files/Inventario de vehículos_COOPAC TUMAN en Liquidación_19052022.pdf">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Listado de oficinas cerradas y entregadas a sus propietarios durante el proceso de liquidación (Al 10/06/2022)</h5>
+                    <p><a href="files/Listado de oficinas Cerradas y entregadas a sus propietarios.pdf">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Comunicado N° 03 : Sobre el proceso de devolución a depositantes</h5>
+                    <p><a href="files/Comunicado Devolucion COOPAC TUMAN 03.05.2022.pdf">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Listado preliminar de acreedores de COOPAC TUMAN, en liquidación</h5>
+                    <p><a href="files/Listado de acreedores - COOPAC TUMAN en Liquidación.pdf">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Comunicado N° 02 : Sobre el proceso de devolución a depositantes</h5>
+                    <p><a href="files/Comunicado Devolucion COOPAC TUMAN 30.03.2022.pdf">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Comunicado N° 01 : Sobre el proceso de devolución a depositantes</h5>
+                    <p><a href="files/ComunicadoDevolucionCREDICOOPAREQUIPA.pdf">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Comunicado a Personas Naturales y Jurídicas en posesión de activos de la cooperativa</h5>
+                    <p><a href="files/solicitud.pdf">Descargar aquí</a></p>
+                  </div>
+                </li>              
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Resolución que declara la disolución e inicio del proceso de liquidación de Coopac COOPAC TUMAN, Resolución SBS N° 00149-2022</h5>
+                    <p><a href="https://www.sbs.gob.pe/Portals/0/jer/Rela_COOPAC_Disol/RES_SBS_149-2022.pdf">Descargar aquí</a> </p>
+                  </div>
+                 <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Comunicado - Información importante sobre pago de los créditos.</h5>
+                    <p><a href="https://www.sbs.gob.pe/Portals/0/jer/CREDICOOP/Comunicado-Credicoop-Creditos.pdf">  Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5> Resolución que declara la intervención de Coopac COOPAC TUMAN, Resolución SBS N° 03609-2021.</h5>
+                    <p><a href="https://www.sbs.gob.pe/Portals/0/jer/CREDICOOP/RESOLUCION-%20SBS-N-03609-2021-CREDICOOP.pdf">  Descargar aquí</a></p>
+                  </div>
+                </li> 
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5> Comunicado: SBS interviene la Coopac COOPAC TUMAN.</h5>
+                    <p><a href="https://www.sbs.gob.pe/Portals/0/jer/CREDICOOP/Comunicado%20CREDICOOP%20AREQUIPA.pdf">  Descargar aquí</a></p>
+                  </div>
+                </li> 
+  
+                </li>
+              </ul>
+              <p>
+                <h4>Documentos en:</h4> 
+                     <a href="https://www.sbs.gob.pe/coopac/coopac-credicoop-arequipa-en-liquidacion">https://www.sbs.gob.pe/coopac/coopac-credicoop-arequipa-en-liquidacion</a>  
+              </p>
+            </div>
+          </div>
+  
+        </div>
+      </section><!-- End About Section -->
+  
+  
+      <!-- ======= Services Section ======= -->
+      <section id="services" class="about ">
+        <div class="container" data-aos="fade-up">
+  
+          <div class="section-title">
+            <h2>Estados financieros</h2>
+            <h3>Revisa Nuestros <span>Estados Financieros</span></h3>
+            <p>Puedes descargar y ver nuestros estados financieros.</p>
+          </div>
+  
+          <div class="row">
+            <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
+              <ul>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Estado de Situación Financiera y Estado de Ganancias y Pérdidas <br>Periodo: Marzo 2024</h5>
+                    <p><a href="files/ef/EEFF - EERR - MARZO 2024.pdf" target="_blank">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Estado de Situación Financiera y Estado de Ganancias y Pérdidas <br>Periodo: Febrero 2024</h5>
+                    <p><a href="files/ef/EEFF - EERR - FEBRERO 2024.pdf" target="_blank">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Estado de Situación Financiera y Estado de Ganancias y Pérdidas <br>Periodo: Enero 2024</h5>
+                    <p><a href="files/ef/EEFF - EERR - ENERO 2024.pdf" target="_blank">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Estado de Situación Financiera y Estado de Ganancias y Pérdidas <br>Periodo: Diciembre 2023</h5>
+                    <p><a href="files/ef/EEFF - EERR - DICIEMBRE 2023.pdf" target="_blank">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Estado de Situación Financiera y Estado de Ganancias y Pérdidas <br>Periodo: Noviembre 2023</h5>
+                    <p><a href="files/ef/EEFF - EERR - NOVIEMBRE 2023.pdf" target="_blank">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Estado de Situación Financiera y Estado de Ganancias y Pérdidas <br>Periodo: Octubre 2023</h5>
+                    <p><a href="files/ef/EEFF - EERR - OCTUBRE 2023.pdf" target="_blank">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Estado de Situación Financiera y Estado de Ganancias y Pérdidas <br>Periodo: Setiembre 2023</h5>
+                    <p><a href="files/ef/EEFF - EERR - SETIEMBRE 2023_.pdf" target="_blank">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Estado de Situación Financiera y Estado de Ganancias y Pérdidas <br>Periodo: Agosto 2023</h5>
+                    <p><a href="files/ef/EEFF - EERR - AGOSTO 2023_.pdf" target="_blank">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Estado de Situación Financiera y Estado de Ganancias y Pérdidas <br>Periodo: Julio 2023</h5>
+                    <p><a href="files/ef/EEFF - EERR - JULIO 2023_.pdf" target="_blank">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Estado de Situación Financiera y Estado de Ganancias y Pérdidas <br>Periodo: Junio 2023</h5>
+                    <p><a href="files/ef/EEFF - EERR - JUNIO 2023.pdf" target="_blank">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Estado de Situación Financiera y Estado de Ganancias y Pérdidas <br>Periodo: Mayo 2023</h5>
+                    <p><a href="files/ef/EEFF - EERR - MAYO 2023.pdf" target="_blank">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Estado de Situación Financiera y Estado de Ganancias y Pérdidas <br>Periodo: Abril 2023</h5>
+                    <p><a href="files/ef/EEFF - EERR - ABRIL 2023.pdf" target="_blank">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Estado de Situación Financiera y Estado de Ganancias y Pérdidas <br>Periodo: Marzo 2023</h5>
+                    <p><a href="files/ef/EEFF - EERR - MARZO 2023.pdf" target="_blank">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Estado de Situación Financiera y Estado de Ganancias y Pérdidas <br>Periodo: Febrero 2023</h5>
+                    <p><a href="files/ef/EEFF - EERR - FEBRERO 2023.pdf" target="_blank">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Estado de Situación Financiera y Estado de Ganancias y Pérdidas <br>Periodo: Enero 2023</h5>
+                    <p><a href="files/ef/EEFF - EERR - ENERO 2023.pdf" target="_blank">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Estado de Situación Financiera y Estado de Ganancias y Pérdidas <br>Periodo: Diciembre 2022</h5>
+                    <p><a href="files/ef/EEFF - EERR - DICIEMBRE 2022.pdf" target="_blank">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Estado de Situación Financiera y Estado de Ganancias y Pérdidas <br>Periodo: Noviembre 2022</h5>
+                    <p><a href="files/ef/EEFF - EERR - NOVIEMBRE 2022.pdf" target="_blank">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Estado de Situación Financiera y Estado de Ganancias y Pérdidas <br>Periodo: Octubre 2022</h5>
+                    <p><a href="files/ef/EEFF - EERR - OCTUBRE 2022.pdf" target="_blank">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Estado de Situación Financiera y Estado de Ganancias y Pérdidas <br>Periodo: Setiembre 2022</h5>
+                    <p><a href="files/ef/EEFF - EERR - SETIEMBRE 2022.pdf" target="_blank">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Estado de Situación Financiera y Estado de Ganancias y Pérdidas <br>Periodo: Agosto 2022</h5>
+                    <p><a href="files/ef/EEFF - EERR - AGOSTO 2022.pdf" target="_blank">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Estado de Situación Financiera y Estado de Ganancias y Pérdidas <br>Periodo: Julio 2022</h5>
+                    <p><a href="files/ef/EEFF - EERR - JULIO 2022.pdf" target="_blank">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Estado de Situación Financiera y Estado de Ganancias y Pérdidas <br>Periodo: Junio 2022</h5>
+                    <p><a href="files/ef/EEFF - EERR - JUNIO 2022.pdf" target="_blank">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Estado de Situación Financiera y Estado de Ganancias y Pérdidas <br>Periodo: Mayo 2022</h5>
+                    <p><a href="files/ef/EEFF - EERR - MAYO 2022.pdf" target="_blank">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Estado de Situación Financiera y Estado de Ganancias y Pérdidas <br>Periodo: Abril 2022</h5>
+                    <p><a href="files/ef/EEFF - EERR - ABRIL 2022.pdf" target="_blank">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Estado de Situación Financiera y Estado de Ganancias y Pérdidas <br>Periodo: Marzo 2022</h5>
+                    <p><a href="files/ef/EEFF - EERR - MARZO 2022.pdf" target="_blank">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Estado de Situación Financiera y Estado de Ganancias y Pérdidas <br>Periodo: Febrero 2022</h5>
+                    <p><a href="files/ef/EEFF - EERR - FEBRERO 2022.pdf" target="_blank">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Estado de Situación Financiera y Estado de Ganancias y Pérdidas <br>Periodo: Enero 2022</h5>
+                    <p><a href="files/ef/EEFF - EERR - ENERO 2022.pdf" target="_blank">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Estado de Situación Financiera y Estado de Ganancias y Pérdidas <br>Inicio de Liquidación - 19/01/2022</h5>
+                    <p><a href="files/ef/EEFF - EERR - ENERO 2022 - INICIO LIQ.pdf" target="_blank">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Estado de Situación Financiera y Estado de Ganancias y Pérdidas <br>Periodo: Diciembre 2021</h5>
+                    <p><a href="files/ef/EEFF - EERR - DICIEMBRE 2021.pdf" target="_blank">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Estado de Situación Financiera y Estado de Ganancias y Pérdidas <br>Periodo: Noviembre 2021</h5>
+                    <p><a href="files/ef/EEFF - EERR - NOVIEMBRE 2021.pdf" target="_blank">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Resumen de los Estados Financieros a Octubre 2021, ajustados en el proceso de Intervención.</h5>
+                    <p><a href="files/ef/Resumen de los Estados Financieros a Octubre 2021 ajustados en el proceso de Intervención.pdf" target="_blank">Descargar aquí</a></p>
+                  </div>
+                </li>
+  <!--
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Estado de Situación Financiera - Periodo: Octubre 2021</h5>
+                    <p><a href="files/ef/EEFF Octubre 2021-1-2.pdf">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Estado de Ganacias y Pérdidas - Periodo: Octubre 2021</h5>
+                    <p><a href="files/ef/EEFF Octubre 2021-3.pdf">Descargar aquí</a></p>
+                  </div>
+                </li>
+  -->
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Estado de Situación Financiera y Estado de Ganancias y Pérdidas <br>Periodo: Octubre 2021</h5>
+                    <p><a href="files/ef/EEFF - EERR - OCTUBRE 2021.pdf" target="_blank">Descargar aquí</a></p>
+                  </div>
+                </li>
+  
+  <!--
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Estado de Situación Financiera - <br>Periodo: Junio 2021</h5>
+                    <p><a href="files/ef/EEFF - FORMA A JUNIO 2021.pdf">Descargar aquí</a></p>
+                  </div>
+                </li>
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Estado de Ganacias y Pérdidas - <br>Periodo: Junio 2021</h5>
+                    <p><a href="files/ef/EEFF - FORMA B JUNIO 2021.pdf">Descargar aquí</a></p>
+                  </div>
+                </li>
+  --> 
+                <li>
+                  <i class="bx bxs-file-pdf"></i>
+                  <div>
+                    <h5>Estado de Situación Financiera y Estado de Ganancias y Pérdidas <br>Periodo: Junio 2021</h5>
+                    <p><a href="files/ef/EEFF - EERR - JUNIO 2021.pdf" target="_blank">Descargar aquí</a></p>
+                  </div>
+                </li>                                         
+               </ul>
+            </div> 
+          </div>  
+  
+         
+  
+        </div>
+      </section><!-- End Services Section -->
+  
+      <!-- ======= Frequently Asked Questions Section ======= -->
+      <section id="faq" class="faq section-bg">
+        <div class="container" data-aos="fade-up">
+  
+          <div class="section-title">
+            <h2>F.A.Q.</h2>
+            <h3>Revisa Las <span>Preguntas Frecuentes</span></h3>
+            <p>La mayoría de preguntas hechas por los socios ya han sido respondidas, revísalas.</p>
+          </div>
+  
+          <div class="row justify-content-center">
+            <div class="col-xl-10">
+              <ul class="faq-list">
+  
+                <li>
+                  <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">¿Qué ha sucedido con la COOPAC TUMAN? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                  <div id="faq1" class="collapse" data-bs-parent=".faq-list">
+                    <p>
+                      En aplicación estricta de la Ley N° 30822 (Ley COOPAC), esta Superintendencia (SBS) declaró la intervención de la Cooperativa de Ahorro y Crédito Tumán (COOPAC TUMAN) por encontrarse incursa en la causal de pérdida total del capital social y de la reserva cooperativa establecida en el literal b. del subnumeral 4B.1. del numeral 4.B de la Vigésimo Cuarta Disposición Final y Complementaria de la Ley General del Sistema Financiero y del Sistema de Seguros y Orgánica de la Superintendencia de Banca y Seguros, Ley N° 26702 y sus modificatorias (Ley General), referida a la pérdida del total del capital social y reserva cooperativa.
+                    </p>
+                  </div>
+                </li>
+  
+                <li>
+                  <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">¿Cuál es la base legal de este proceso de intervención? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                  <div id="faq2" class="collapse" data-bs-parent=".faq-list">
+                    <p>
+                      La base legal que obliga a la SBS a declarar la intervención de las Cooperativas de Ahorro y Crédito No Autorizadas a Captar Recursos del Público (COOPAC), cuando estas incurren en alguna de las causales establecidas es la Ley COOPAC que modificó la Ley General, sustituyendo su Vigésimo Cuarta Disposición Final y Complementaria, referida a las COOPAC, y el Reglamento de Regímenes Especiales y de la Liquidación de las Cooperativas de Ahorro y Crédito No Autorizadas a Captar Recursos del Público, aprobado por Resolución SBS 5076-2018 y su modificatoria.
+                    </p>
+                  </div>
+                </li>
+  
+                <li>
+                  <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">¿A dónde me puedo comunicar para obtener información respecto de la intervención de COOPAC TUMAN? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                  <div id="faq3" class="collapse" data-bs-parent=".faq-list">
+                    <p>
+                      <ul style="margin-left: 5%;">
+                        <li>  Correo oficial: Liquidacioncoopactuman@gmail.com</li>
+                        <li>  Consultas en línea: <a href="www.cooperativatuman.com">www.cooperativatuman.com</a></li>
+                      </ul>
+                    </p>
+                  </div>
+                </li>
+  
+                <li>
+                  <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">¿Desde cuándo la SBS supervisa a COOPAC TUMAN? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                  <div id="faq4" class="collapse" data-bs-parent=".faq-list">
+                    <p>
+                      La SBS cuenta con el mandato de supervisar a las COOPAC, desde la entrada en vigencia de la
+                      Ley COOPAC, el 01.01.2019.
+                    </p>
+                  </div>
+                </li>
+  
+                <li>
+                  <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">¿Quién esta a cargo?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                  <div id="faq5" class="collapse" data-bs-parent=".faq-list">
+                    <p>
+                      Mediante proceso judicial 891-2022, el octavo juzgado comercial de Chiclayo, designo al Dr. Amador Nicolas Mondoñedo Chavez, como LIQUIDADOR DE LA COOPAC TUMAN.
+                    </p>
+                  </div>
+                </li>
+  
+                <li>
+                  <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">¿Dónde puedo pagar mis obligaciones con la COOPAC TUMAN?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                  <div id="faq6" class="collapse" data-bs-parent=".faq-list">
+                    <p>
+                      La liquidación cuenta con una cuenta de ahorros en la CAJA PIURA siendo esta CUENTA N° 210- 01-7708789 Y CCI N° 80101121001770878983 (debe consultar el pago adicional por transferencia interbancaria al momento de realizar el mismo y adicionarlo a su cuota); asimismo, enviar foto y detalle de su pago al correo oficial Liquidacioncoopactuman@gmail.com
+                    </p>
+                  </div>
+                </li>
+  
+                <li>
+                  <div data-bs-toggle="collapse" href="#faq7" class="collapsed question">¿En qué orden se realizarán los pagos y devoluciones?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                  <div id="faq7" class="collapse" data-bs-parent=".faq-list">
+                    <p>
+                      Conforme lo señala la RESOLUCION SBS N° 5076-2018 - Reglamento de las Cooperativas de Ahorro y Crédito No Autorizadas a Operar con Recursos del Público, en su artículo 10.2 que señala:
+                      <br><br>
+                      <strong>Prelación en el pago de las obligaciones de una COOPAC de nivel 1 o 2</strong> 
+                      <br><br>
+                      10.2 Las obligaciones a cargo de una COOPAC de nivel 1 o 2 en proceso de liquidación son pagadas en el siguiente orden:
+                      <br><br>
+                      <div>
+                        <ol type="A" style="margin-left: 5%;">
+                          <li>Cumplimiento de las obligaciones de carácter laboral: <br>
+                            <ol type="1">
+                              <br>
+                              <li>Las remuneraciones</li>
+                              <li>Los beneficios sociales, las aportaciones al Sistema Privado de Pensiones y a la Oficina de Normalización Previsional, así como otros créditos laborales de los trabajadores de la COOPAC liquidada, devengados hasta la fecha en que se declara la disolución.</li>
+                            </ol>
+                          </li>
+
+                          <li>Cumplimiento de la garantía del ahorro: <br>
+                            <br>
+                            <p>Los recursos captados en forma de depósito, no atendidos con cargo al Fondo de Seguro de Depósito Cooperativo. De igual forma, los recursos utilizados por el Fondo de Seguro de Depósito Cooperativo para efectivizar la cobertura.</p>     
+                          </li>
+
+                          <li>Cumplimiento de obligaciones de carácter tributario: <br>
+                            <br>
+                            <ol type="1">
+                              <li>Los que corresponden al Seguro Social de Salud (ESSALUD), por obligaciones por prestaciones de salud a cargo de la Coopac disuelta, como empleadora.</li>
+                              <li>Tributos.</li>
+                            </ol>     
+                          </li>
+
+                          <li>Cumplimiento de otras obligaciones: <br>
+                            <br>
+                            <ol type="1">
+                              <li>Las demás obligaciones, según su antigüedad, y cuando no pueda determinarse, a prorrata.</li>
+                              <li>Los intereses legales en el mismo orden reseñado precedentemente.</li>
+                              <li>La deuda subordinada.</li>
+                            </ol>     
+                          </li>
+                        </ol>
+                      </div>
+                      
+                    </p>
+                  </div>
+                </li>
+  
+
+  
+              </ul>
+            </div>
+          </div>
+  
+        </div>
+      </section><!-- End Frequently Asked Questions Section -->
+  
+      <!-- ======= Contact Section ======= -->
+  
+      <section id="contact" class="contact">
+        <div class="container" data-aos="fade-up">
+  
+          <div class="section-title">
+            <h2>Consultas</h2>
+            <h3>Realiza tu <span>Consulta</span></h3>
+            <p>Es necesario que registres todos los datos que se solicitan.</p>
+          </div>
+  
+      
+  
+          <div class="row" data-aos="fade-up" data-aos-delay="100" >
+  
+           
+  
+            <div class="col-lg-6">
+
+              <form id="formulario" action="" role="form" class="php-email-form">
+                <input type="hidden" name="token" id="recaptchaResponse">
+                <div class="row">
+                  <div class="col form-group">
+                    <input type="text" name="fln" class="form-control" id="fln" placeholder="Tu apellido paterno" required>
+                  </div> 
+                  <div class="col form-group">
+                    <input type="text" name="mln" class="form-control" id="mln" placeholder="Tu apellido materno" required>
+                  </div>     
+                </div>
+                
+                <div class="row">
+                  <div class="form-group">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Tu Nombre completo" required>
+                  </div>                            
+                 
+                  <div >
+                    <div class="col form-group">
+                      <input type="email" class="form-control"  name="email" id="email" placeholder="Tu correo electrónico" required>
+                    </div> 
+                    <div class="col form-group">
+                      <input type="phone" class="form-control"  name="phone" id="phone" placeholder="Tu número de celular" required>
+                    </div>     
+                  </div>
+  
+                </div>
+  
+                <div class="col form-group">
+                  <select name="condition" id="condition" class="form-select" aria-label="Default select example">
+                    <option selected>Condición</option>
+                    <option value="Socio">Socio</option>
+                    <option value="Colaborador">Colaborador</option>
+                    <option value="Proveedor">Proveedor</option>
+                    <option value="Arrendador">Arrendador</option>
+                  </select>                
+                </div>
+               <div class="col form-group">
+                  <select  name="motivo" id = "motivo" class="form-select" aria-label="Default select example">
+                    <option selected>Motivo de consulta</option>
+                    <option value="Creditos">Créditos</option>
+                    <option value="Liquidacion">Liquidación</option>
+                    <option value="Alquileres">Alquileres</option>
+                    <option value="Depositos">Depósitos</option>
+                  </select>                
+                </div>
+  
+  
+                <div class="form-group">
+                  <textarea class="form-control" id="message" name="message" rows="5" placeholder="Mensaje" required></textarea>
+                </div>
+                <div class="my-3">
+                  <div class="loading">Cargando</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Tu mensaje ha sido enviado.</div>
+                </div>
+                <div class="text-center"><button id="send" type="submit"  class="btn btn-secondary g-recaptcha" 
+                  data-sitekey="6LcoW8ceAAAAAL_EURHKVP075VuOAoGAlWLRId7f" 
+                  >Enviar mensaje</button></div>
+              </form> 
+            </div>
+  
+          </div>
+  
+        </div>
+      </section><!-- End Contact Section -->
+      
+    </main><!-- End #main -->
+
+
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+
+    <script>
+      grecaptcha.ready(function() {
+      grecaptcha.execute('6LcoW8ceAAAAAL_EURHKVP075VuOAoGAlWLRId7f', {action: 'formulario'})
+      .then(function(token) {
+      var recaptchaResponse = document.getElementById('recaptchaResponse');
+      recaptchaResponse.value = token;
+      });});
+    </script>
+    
+    <script>
+      function onSubmit(token) {
+        document.getElementById("formulario").submit();
+      }
+    </script> 
+  
+    <script>
+  
+      $( document ).ready(function() {
+          $('#mfs').modal('toggle')
+      });
+    
+      $(".cerrarModal").click(function(){
+      $("#mfs").modal('hide')
+      });
+    </script>
+
+
+  </body>
 </html>
